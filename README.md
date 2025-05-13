@@ -1,76 +1,76 @@
-Expense Manager – Java Swing + MySQL
+# 💸 Expense Manager – Java Swing + MySQL
 
-A desktop-based Expense Manager application built using Java Swing for the GUI and JDBC with MySQL for persistent data storage. This application allows users to track, manage, and analyze their daily expenses efficiently.
+A desktop-based **Expense Manager** application built using **Java Swing** for the GUI and **JDBC with MySQL** for persistent data storage. This application allows users to track, manage, and analyze their daily expenses efficiently.
 
-Java | MySQL
+---
 
-Features
+## 🚀 Features
 
-• Add, update, and delete expense records
+- ✅ Add, update, and delete expense records  
+- 📂 Categorize expenses (e.g., Food, Travel, Utilities)  
+- 📅 View daily, weekly, or monthly expense summaries  
+- 💾 Persistent storage using MySQL and JDBC  
+- 🖥️ User-friendly GUI built with Java Swing  
 
-• Categorize expenses (e.g., Food, Travel, Utilities)
+---
 
-• View daily, weekly, or monthly expense summaries
+## 🛠️ Tech Stack
 
-• Persistent storage using MySQL and JDBC
+- **Programming Language**: Java (OOP-based)  
+- **GUI**: Java Swing  
+- **Database**: MySQL  
+- **Database Connector**: JDBC  
 
-• User-friendly GUI built with Java Swing
+---
 
-Tech Stack
+## ⚙️ Getting Started
 
-• Programming Language: Java (OOP-based)
+### ✅ Prerequisites
 
-• GUI: Java Swing
+- Java JDK 8 or higher  
+- MySQL installed and running  
+- MySQL JDBC Driver (Connector/J)  
+- IDE like IntelliJ IDEA or Eclipse  
 
-• Database: MySQL
+---
 
-• Database Connector: JDBC
+## 📦 Setup Instructions
 
+### 1. Import Project  
+Open the project in your preferred IDE and add the MySQL JDBC connector JAR.
 
-Getting Started
+### 2. Set Up Database  
+Run the `database.sql` file in your MySQL client to create the required tables.
 
-Prerequisites
+### 3. Update DB Credentials  
+In your Java file (e.g., `DBConnection.java`), update:
 
-• Java JDK 8 or higher
+String url = "jdbc:mysql://localhost:3306/expense_db";
 
-• MySQL installed and running
+String username = "root";
 
-• MySQL JDBC Driver (Connector/J)
+String password = "your_password";
 
-• IDE like IntelliJ IDEA or Eclipse
+---
+## 🖥️ Run the Application
 
-Setup Instructions
-
-1.Clone the Repository:
-
-   git clone https://github.com/AdityaRoy0804/Expense-Manager.git
-   
-2.Import Project:
-
-   Open the project in your preferred IDE and add MySQL JDBC connector JAR.
-   
-3.Set Up Database:
-
-   Run the database.sql file in your MySQL client to create required tables.
-   
-4.Update DB Credentials in your Java file (e.g., DBConnection.java):
-
-5.   String url = "jdbc:mysql://localhost:3306/expense_db";
-6.   
-   String username = "root";
-
-   String password = "your_password";
-   
-6.Run the Application:
-
-   Run the main class (e.g., Main.java) to launch the GUI.
-   
-Screenshots
+5. Run the Application
+Run the main class (e.g., Main.java) to launch the GUI.
+---
 
 
+## 🤝 Contributing
+Contributions are welcome!
+Feel free to fork this repository, submit pull requests, or open issues. Suggestions and improvements are appreciated.
 
-Contributing
-Feel free to fork this repo and submit pull requests. Suggestions and bug reports are welcome!
-License
+---
+
+## 📄 License
 This project is open-source and available under the MIT License.
-Visit Repository: https://github.com/AdityaRoy0804/Expense-Manager
+
+---
+
+## 🔗 Visit Repository
+
+Github URL : https://github.com/AdityaRoy0804/Expense-Manager/tree/main
+
